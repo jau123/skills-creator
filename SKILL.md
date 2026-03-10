@@ -44,9 +44,9 @@ The SKILL.md is injected into an LLM's context. Write actionable directives ("Do
 
 Tables are the LLM's fastest lookup structure. Any conditional logic ("if X then Y") should be a table row, not a paragraph. Reserve prose for context that doesn't fit a table.
 
-### Rule 5: The skill must follow every rule it teaches
+### Rule 5: The skill must describe itself accurately and be internally consistent
 
-Self-consistency is a quality signal. If the skill teaches "add a Quick Reference table", it must have one. If it teaches "use tables over prose", its own content must use tables.
+Self-consistency is a quality signal. If the skill teaches "add a Quick Reference table", it must have one. If it references a tool, that tool must exist and its description must accurately reflect what it does. Never claim capabilities the skill doesn't have.
 
 ### Rule 6: Never auto-execute generated scripts without user confirmation
 
