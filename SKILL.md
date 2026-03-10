@@ -1,7 +1,7 @@
 ---
 name: skills-creator
 description: Guide users through creating, reviewing, and improving OpenClaw skills following proven best practices. Use when someone asks to "create a skill", "write a SKILL.md", "make an OpenClaw skill", "publish to ClawHub", "review my skill", "improve my skill", "optimize skill description", "skill frontmatter help", "what makes a good skill", or discusses OpenClaw/ClawHub skill development, agent skill format, or SKILL.md structure.
-version: 1.0.0
+version: 1.0.2
 metadata: {"clawdbot":{"emoji":"🛠️","requires":{"bins":[]}}}
 ---
 
