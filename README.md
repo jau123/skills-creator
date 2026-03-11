@@ -67,6 +67,20 @@ The full checklist covers 24 checks across 6 categories:
 | Security | 3 | VirusTotal compliance, pinned versions |
 | Supporting Files | 3 | references/, scripts/, assets/ |
 
+## How This Differs from Claude Code's Built-in Tools
+
+Claude Code ships with `skill-creator` and `plugin-dev` — great tools for the Claude Code ecosystem. This skill serves a different audience and purpose:
+
+| | **skills-creator** (this) | Claude Code `skill-creator` | Claude Code `plugin-dev` |
+|---|---|---|---|
+| **Platform** | OpenClaw / ClawHub | Claude Code | Claude Code |
+| **Focus** | Skill design methodology | Eval-driven skill testing | Plugin scaffolding |
+| **Core strength** | Description Writing Formula, 24-point quality checklist, complexity tiers | Automated parallel evals, variance analysis, benchmarking | 8-phase plugin creation, hooks, agents, commands |
+| **Platform knowledge** | `{baseDir}`, single-line metadata JSON, `clawdbot` key, VirusTotal compliance, ClawHub publishing | Claude Code skill format | Claude Code plugin format |
+| **Approach** | Design-first — get structure and description right before writing | Test-first — measure triggering accuracy with evals | Build-first — scaffold then validate |
+
+**In short**: Use this skill when building for OpenClaw/ClawHub. Use Claude Code's tools when building for Claude Code.
+
 ## License
 
 MIT-0 (MIT No Attribution) — as required by ClawHub.
